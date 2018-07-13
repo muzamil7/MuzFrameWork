@@ -1,0 +1,63 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login into Home page",
+        "description": "",
+        "id": "login-functionality;login-into-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82145254,
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Hashtable.put(Hashtable.java:460)\r\n\tat java.util.Properties.setProperty(Properties.java:166)\r\n\tat java.lang.System.setProperty(System.java:796)\r\n\tat dataProviders.ConfigFileReader.getBrowser(ConfigFileReader.java:70)\r\n\tat stepDefination.SlideshareLogintest.i_am_on_the_Google_Page(SlideshareLogintest.java:25)\r\n\tat ✽.Given I am on the Google Page(SlideshareLogin.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am on the Google Page",
+            "match": {
+              "location": "SlideshareLogintest.i_am_on_the_Google_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter user name and password",
+            "match": {
+              "location": "SlideshareLogintest.i_enter_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I see page logged in",
+            "match": {
+              "location": "SlideshareLogintest.i_see_page_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "SlideshareLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@PracticeTest"
+      }
+    ]
+  }
+]

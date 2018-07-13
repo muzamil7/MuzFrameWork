@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Login into Home page
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 2, Time elapsed: 0.387 sec <<< FAILURE! - in Scenario: Login into Home page
+Scenario: Login into Home page  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.util.Hashtable.put(Hashtable.java:460)
+	at java.util.Properties.setProperty(Properties.java:166)
+	at java.lang.System.setProperty(System.java:796)
+	at dataProviders.ConfigFileReader.getBrowser(ConfigFileReader.java:70)
+	at stepDefination.SlideshareLogintest.i_am_on_the_Google_Page(SlideshareLogintest.java:25)
+	at ?.Given I am on the Google Page(SlideshareLogin.feature:5)
+
